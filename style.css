@@ -41,6 +41,17 @@ body::before {
     font-size: 18px; color: #999;
     transition: all .5s ease;
 }
+.int-area label.warning{
+    color: red !important;
+    animation:warning .3c ease;
+    animation-iteration-count: 3;
+}
+@keyframes warning {
+    0%{transform: translateX(-8x);}
+    25%{transform: translateX(-8x);}
+    50%{transform: translateX(-8x);}
+    75%{transform: translateX(-8x);}    
+}
 .int-area input:focus + label,
 .int-area input:valid + label {
     top: 0;
